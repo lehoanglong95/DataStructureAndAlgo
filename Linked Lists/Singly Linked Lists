@@ -1,0 +1,19 @@
+Singly Linked Lists:
++ A singly linked list, in its simplest form, is a collection of nodes that collectively form a linear sequence.
++ Each node stores a reference to an object that is an element of the sequence, as well as a reference to the next node of the list.
++ The list instance maintains a member named head that identifies the first node of the list.
++ In some apps another member named tail that identifies the last node of the list.
++ An important property of a linked list is that it does not have a predetermined fixed size.
++ It uses space proportionally to its current number of elements.
++ To insert a new element at the head of the list:
+    - We create a new node.
+    - Set its element to the new element.
+    - Set its next link to refer to the current head.
+    - Then set the list's head to point to the new node.
++ Pros:
+    - Linked lists have constant-time insertitons and deletions in any position, in comparison, arrays require O(n) time to do the same thing.
+    - Linked lists can continue to expand without having to specify their size ahead of time(remember our lectures on Array sizing form the Array Sequence section of the course!)
+    
++ Cons:
+    - To access an element in a linked lists, you need to take O(k) time to go from the head of the list to the kth element. In constrast, arrays have constant time operations to access element in an array.
+    

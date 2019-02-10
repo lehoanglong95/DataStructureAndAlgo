@@ -1,0 +1,10 @@
+Stacks Overview:
++ A stack is an ordered collection of items where the addition of new items and the removal of existing items always takes place at the same end.
++ This end is commonly referred to as the "top".
++ The end opposite the top is known as the "base".
++ The base of the stack represent those have been in the stack the longest.
++ The most recently added item is the one that is in position to be removed first.
++ This ordering principle is sometimes called LIFO, last-in first-out.
++ Newer items are near the top, while older itmes are near the base.
++ Stacks are fundamentally important, as they can be used to reverse the order of items.
++ The oder of insertion is the reverse of the order of removal.

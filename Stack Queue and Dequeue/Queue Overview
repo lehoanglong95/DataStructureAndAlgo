@@ -1,0 +1,6 @@
+Queue
++ A queue is an ordered collection of items where the addition of new items happends at one end, called the "rear", and the removal of existing items occurs at the other end, commonly called the "front".
++ The item that has been in the collection the longest is at the front.
++ This ordering principle is sometimes called FIFO, first-in first-out.
++ The enqueue term describes when we add a new item to the rear of the queue.
++ The dequeue term describes removing the front item from the queue.
