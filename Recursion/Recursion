@@ -1,0 +1,8 @@
+What is Recursion?
++ There are two main instances of recursion.
++ The first is when recursion is used as a technique in which a function makes one or more calls to itself.
++ The second is when a data structure uses smaller instances of the exact same type of data structure when it represents itself.
+Why use Recursion?
++ Recursion provides a powerful alternative for performing repetitions of tasks in which a loop is not ideal.
++ Most modern programming languages support recursion.
++ Recursion serves as a great tool for building out particular data structures.
