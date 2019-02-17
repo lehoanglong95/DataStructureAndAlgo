@@ -1,0 +1,23 @@
+- A tree data structure has a root, branches, and leaves.
+- The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves on the bottom.
+- A second property of trees is that all of the children of one node are independent of the children of another node.
+- A third property is that each leaf node is unique.
+- Another example of a tree structure that you probably use everyday is a file system. In a file system, directories, or folders, are structured as a tree.
+NODE:
+- A node is a fundamental part of a tree. It can have a name, which we call the "key".
+- A node may also have addtional information. We call this additional information the "payload".
+- While the payload information is not central to many tree algo, it is often critical in apps that make use of trees.
+EDGE:
+- An edge is another fundamental part of a tree.
+- An edge connects two nodes to show that there is a relationship between them.
+- Every node(except the root) is connected by excatly one incoming edge from another node.
+- Each node may have several outgoing edges.
+FULL DEFINITION OF A TREE.
+- A tree consists of a set of nodes and a set of edges that connect pairs of nodes. A tree has the following properties:
+    + One node of the tree is designated as the root node.
+    + Every node n, except the root node, is connected by an edge from exactly one other node p, where p is the parent of n.
+    + A unique path traverses from the root to each node.
+    + If each node in the tree has a maximum of two chil, we say that the tree is a binary tree.
+Recursive Definition of a Tree
+- A tree is either empty or consists of a root and zero or more subtrees, each of which is also a tree.
+- The root of each subtree is connected to the root of the parent tree by an edge.
