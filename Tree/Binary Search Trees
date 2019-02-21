@@ -1,0 +1,10 @@
+- We have already seen two different ways to get key-value pairs in a collection.
+- Recall that these collections implement the map abstract data type.
+- The two implementation of a map ADT we discuessed were binary search on a list and hash tables.
+- A binary search tree relies on the property that keys that are less than the parent are found in the left subtree, and keys that are greater than the parent are found in the right subtree.
+- We will call this the bst property.
+- As we implement the Map interface as described above, the bst property will guide our implementation.
+- Notice that the property holds for each parent and child.
+- All of the keys in the left subtree are less than the key in the root.
+- All of the keys in the right subtree are greater than the root.
+
